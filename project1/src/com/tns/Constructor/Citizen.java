@@ -1,5 +1,5 @@
 package com.tns.Constructor;
-program to demonstrate Single Inheritance
+
 public class Citizen {
 	// attributes of the class
 	private String name;
@@ -47,7 +47,7 @@ public class Citizen {
 	private String address;
 	private long phno;
 	
-}
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

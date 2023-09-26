@@ -1,5 +1,4 @@
 package com.tns.Constructor;
-program to demonstrate Constructors
 public class Customer {
 	
 	private String customerName;
