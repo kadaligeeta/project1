@@ -1,5 +1,5 @@
 //program to illustrate Data Encapsulation
-package com.tns.programs1;
+package com.tnsif.prog;
 
 public class Encapsulation {
 	protected int serialno;// datamenbers

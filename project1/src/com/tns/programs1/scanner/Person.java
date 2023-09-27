@@ -14,7 +14,7 @@ public class Person {
 	public int getIncome() {
 		return income;
 	}
-	piblic void setIncome(int income) {
+	public void setIncome(int income) {
 		this.income = income;
 	}
 	public int getTax() {
@@ -23,12 +23,11 @@ public class Person {
 	public void setTax(int tax) {
 		this.tax = tax;
 	}
-	//help you to print object in string format
-	@override
+	//help you to print object in string for
 	public String toString( ) {
 		return "person [name=" + name + ", income=" + income + ", tax=" + tax + "]";
 	}		
 		
 	}
 
-}
+

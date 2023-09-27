@@ -1,47 +1,42 @@
 package com.tns.Constructor;
 
-public class Student extends Citizen {
-	private static int rollno;
-	private String collageName;
+public class Student extends Citizen{
+	private int rollno;
+	private String collegeName;
 
-	public Student(String name, long adharno, String address, long phno, int rollno, String collageName) {
+	public Student() {
+		super();
+	}
+	
+	//public Student(int rollno,String collegename) {
+	//	super();
+	//	this.rollno=rollno;
+		
+	public Student(String name, long adharno, String address, long phno) {
 		super(name, adharno, address, phno);
-		Student.rollno = rollno;
-		this.collageName = collageName;
-
+		// TODO Auto-generated constructor stub
+		this.rollno=rollno;
+		this.collegeName=collegeName;
 	}
 
-	@Override
-	public String toString() {
-		return "Student [rollno=" + rollno + ", collageName=" + collageName + "]";
-	}
-
-	public Student(String name, long adharno, String address, long phno, String collageName, int rollno) {
-		super(name, adharno, address, phno);
-		Student.rollno = rollno;
-		this.collageName = collageName;
-	}
-
+	//}
 	public int getRollno() {
 		return rollno;
 	}
-
 	public void setRollno(int rollno) {
-		Student.rollno = rollno;
+		this.rollno = rollno;
 	}
-
-	public String getCollageName() {
-		return collageName;
+	public String getcollegeName() {
+		return collegeName;
 	}
-
-	public void setCollageName(String collageName) {
-		this.collageName = collageName;
+	public void setCollegeName(String collegeName) {
+		collegeName = collegeName;
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-
-	}
+	//@Override
+	//public String toString() {
+		//return "Student [rollno=" + rollno + ", collegeName=" + collegeName + "]";
+	//}
+	
+	
 
 }
